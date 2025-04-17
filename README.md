@@ -1,10 +1,11 @@
-# 💻 Portafolio Web - Carlos Martínez
+# 💼 Portafolio Web - Carlos Martínez
 
-![Vista previa del portafolio](./screenshot.png)
+![Banner del portafolio](./banner.png)
 
 [![Último commit](https://img.shields.io/github/last-commit/Carlos110400/mi-portafolio?color=blue)](https://github.com/Carlos110400/mi-portafolio/commits/main)
 [![Tamaño del repositorio](https://img.shields.io/github/repo-size/Carlos110400/mi-portafolio?color=success)](https://github.com/Carlos110400/mi-portafolio)
 [![Licencia](https://img.shields.io/github/license/Carlos110400/mi-portafolio)](https://github.com/Carlos110400/mi-portafolio/blob/main/LICENSE)
+[![Ver online en Netlify](https://img.shields.io/badge/%F0%9F%9A%80%20Ver%20online-Netlify-blue?style=for-the-badge&logo=netlify)](https://carlos-martinez-portfolio.netlify.app)
 
 ---
 
@@ -51,13 +52,6 @@ Aquí algunos proyectos en los que he trabajado:
 ¿Tienes un proyecto en mente? ¡Conversemos!
 
 Puedes escribirme a través del formulario de contacto en mi sitio o vía correo electrónico.
-
----
-
-### 🚀 Sitio en línea
-
-🔗 **[Visitar portafolio](https://tusitio.com)**  
-_(Reemplaza este enlace con el real si ya tienes dominio)_
 
 ---
 
