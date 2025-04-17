@@ -1,48 +1,66 @@
-# Astro Starter Kit: Basics
+# 💻 Portafolio Web - Carlos Martínez
 
-```sh
-pnpm create astro@latest -- --template basics
-```
+![Vista previa del portafolio](./screenshot.png)
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/basics)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/basics)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/basics/devcontainer.json)
+[![Último commit](https://img.shields.io/github/last-commit/Carlos110400/mi-portafolio?color=blue)](https://github.com/Carlos110400/mi-portafolio/commits/main)
+[![Tamaño del repositorio](https://img.shields.io/github/repo-size/Carlos110400/mi-portafolio?color=success)](https://github.com/Carlos110400/mi-portafolio)
+[![Licencia](https://img.shields.io/github/license/Carlos110400/mi-portafolio)](https://github.com/Carlos110400/mi-portafolio/blob/main/LICENSE)
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+---
 
-![just-the-basics](https://github.com/withastro/astro/assets/2244813/a0a5533c-a856-4198-8470-2d67b1d7c554)
+¡Hola! Soy **Carlos Eduardo Martínez Alvarado**, Diseñador y Desarrollador Web con más de **5 años de experiencia** creando sitios funcionales, modernos y optimizados.
 
-## 🚀 Project Structure
+Mi enfoque principal es el desarrollo a medida utilizando **HTML, CSS, JavaScript**, y frameworks como **Astro**, **React** y **Tailwind CSS**. También trabajo con CMS como **WordPress** y **Shopify** para soluciones personalizadas.
 
-Inside of your Astro project, you'll see the following folders and files:
+## 👨‍💼 Sobre mí
 
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src/
-│   ├── layouts/
-│   │   └── Layout.astro
-│   └── pages/
-│       └── index.astro
-└── package.json
-```
+> Me apasiona construir experiencias digitales que realmente conecten con el usuario.
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+## 📈 Resultados en números
 
-## 🧞 Commands
+- 🔵 **5+** Años de experiencia
+- 🌐 **30+** Webs administradas
+- 🚀 **10+** Webs creadas desde cero
+- 😄 **40+** Clientes satisfechos
 
-All commands are run from the root of the project, from a terminal:
+## 🛠️ Servicios
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `pnpm install`             | Installs dependencies                            |
-| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
-| `pnpm build`           | Build your production site to `./dist/`          |
-| `pnpm preview`         | Preview your build locally, before deploying     |
-| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `pnpm astro -- --help` | Get help using the Astro CLI                     |
+- 💻 **Desarrollo Web** con Astro, React y Tailwind
+- 🎯 **CMS personalizados** (WordPress / Shopify)
+- 🔧 **Mantenimiento y soporte continuo**
+- 📱 **Diseño Responsive**
+- ⚙️ **Optimización SEO**
+- 🧠 **Asesoría Personalizada**
 
-## 👀 Want to learn more?
+## 🧳 Portafolio destacado
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+Aquí algunos proyectos en los que he trabajado:
+
+- [Avalos Esqueda](https://avalosesqueda.com)
+- [Aranamex Diesel](https://aranamexdiesel.com.mx)
+- [Guga Industrial](https://industrial.gugainternacional.com)
+- [Gabriel Sánchez Ahorro](https://ahorro.gabrielsanchezempresa.com)
+- [Muebles Fusión](https://mueblesfusion.com)
+- [Abogados Especialistas](https://abogadosespecialistasmx.com)
+- [DCO Muebles](https://dcomuebles.com)
+- [Moccallure](https://www.moccallure.com.mx)
+- [Bosque Las Vigas](https://www.bosquelasvigas.com)
+
+## 📬 Contacto
+
+¿Tienes un proyecto en mente? ¡Conversemos!
+
+Puedes escribirme a través del formulario de contacto en mi sitio o vía correo electrónico.
+
+---
+
+### 🚀 Sitio en línea
+
+🔗 **[Visitar portafolio](https://tusitio.com)**  
+_(Reemplaza este enlace con el real si ya tienes dominio)_
+
+---
+
+### © 2025 Carlos Martínez
+
+Todos los derechos reservados.
