@@ -1,0 +1,81 @@
+<!-- Header -->
+<header class="w-full fixed top-0 left-0 bg-white shadow-md z-50">
+  <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between">
+    <!-- Logo -->
+    <a href="#" class="text-xl font-bold">Carlos Martínez</a>
+
+    <!-- Botón menú hamburguesa -->
+    <button id="menu-button" class="md:hidden focus:outline-none">
+      <svg
+        class="w-6 h-6"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <!-- Línea 1 (80%) alineada a la derecha -->
+        <line x1="5" y1="6" x2="21" y2="6"></line>
+        <!-- Línea 2 (100%) -->
+        <line x1="3" y1="12" x2="21" y2="12"></line>
+        <!-- Línea 3 (60%) alineada a la derecha -->
+        <line x1="9" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </button>
+
+    <!-- Menú en escritorio -->
+    <nav class="hidden md:flex space-x-6 text-sm font-medium">
+      <a href="#inicio" class="text-gray-800 hover:text-blue-600">Inicio</a>
+      <a href="#sobremi" class="text-gray-800 hover:text-blue-600">Sobre mí</a>
+      <a href="#servicios" class="text-gray-800 hover:text-blue-600"
+        >Servicios</a
+      >
+      <a href="#portafolio" class="text-gray-800 hover:text-blue-600"
+        >Portafolio</a
+      >
+      <a href="#contacto" class="text-gray-800 hover:text-blue-600">Contacto</a>
+    </nav>
+  </div>
+
+  <!-- Menú móvil -->
+  <div
+    id="mobile-menu"
+    class="absolute top-full left-0 w-full md:hidden px-4 pt-4 pb-6 bg-white shadow transition-all duration-300 ease-in-out transform opacity-0 -translate-y-4 pointer-events-none z-40"
+  >
+    <nav class="space-y-3 text-center text-sm font-medium">
+      <a href="#inicio" class="block text-gray-800 hover:text-blue-600"
+        >Inicio</a
+      >
+      <a href="#sobremi" class="block text-gray-800 hover:text-blue-600"
+        >Sobre mí</a
+      >
+      <a href="#servicios" class="block text-gray-800 hover:text-blue-600"
+        >Servicios</a
+      >
+      <a href="#portafolio" class="block text-gray-800 hover:text-blue-600"
+        >Portafolio</a
+      >
+      <a href="#contacto" class="block text-gray-800 hover:text-blue-600"
+        >Contacto</a
+      >
+    </nav>
+  </div>
+</header>
+
+<!-- Script -->
+<script>
+  const menuBtn = document.getElementById("menu-button");
+  const menu = document.getElementById("mobile-menu");
+
+  menuBtn?.addEventListener("click", () => {
+    menu?.classList.toggle("opacity-0");
+    menu?.classList.toggle("pointer-events-none");
+    menu?.classList.toggle("-translate-y-4");
+
+    menu?.classList.toggle("opacity-100");
+    menu?.classList.toggle("pointer-events-auto");
+    menu?.classList.toggle("translate-y-0");
+  });
+</script>

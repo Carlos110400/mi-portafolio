@@ -1,0 +1,86 @@
+<section id="estadisticas" class="py-20 bg-white px-4 text-center">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-3xl font-bold mb-12">Resultados en números</h2>
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+      <div class="counter">
+        <div
+          class="text-4xl font-bold text-blue-600 flex justify-center items-center"
+        >
+          <span>+</span><p id="counter1">0</p>
+        </div>
+        <p class="mt-2 text-lg">Años de experiencia</p>
+      </div>
+      <div class="counter">
+        <div
+          class="text-4xl font-bold text-blue-600 flex justify-center items-center"
+        >
+          <span>+</span><p id="counter2">0</p>
+        </div>
+        <p class="mt-2 text-lg">Webs administradas</p>
+      </div>
+      <div class="counter">
+        <div
+          class="text-4xl font-bold text-blue-600 flex justify-center items-center"
+        >
+          <span>+</span><p id="counter3">0</p>
+        </div>
+        <p class="mt-2 text-lg">Webs creadas</p>
+      </div>
+      <div class="counter">
+        <div
+          class="text-4xl font-bold text-blue-600 flex justify-center items-center"
+        >
+          <span>+</span><p id="counter4">0</p>
+        </div>
+        <p class="mt-2 text-lg">Clientes satisfechos</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    // Función para animar el contador
+    function animateCounter(id, target) {
+      let count = 0;
+      const element = document.getElementById(id);
+      if (element) {
+        // Verificar que el elemento exista
+        const interval = setInterval(() => {
+          count += 1;
+          element.textContent = count;
+          if (count == target) {
+            clearInterval(interval);
+          }
+        }, 50); // Ajusta la velocidad de animación
+      }
+    }
+
+    // Establecer los valores objetivo para cada contador, asegurándose de que sean enteros
+    document.getElementById("counter1")?.setAttribute("data-target", "5");
+    document.getElementById("counter2")?.setAttribute("data-target", "30");
+    document.getElementById("counter3")?.setAttribute("data-target", "10");
+    document.getElementById("counter4")?.setAttribute("data-target", "40");
+
+    // Función para activar los contadores cuando están visibles
+    const counters = document.querySelectorAll(".counter p");
+    const options = {
+      threshold: 0.5, // Activar cuando el 50% del contador esté visible
+    };
+
+    // Función que se dispara cuando el contador entra en vista
+    const countUpObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const counter = entry.target;
+          const target = counter.getAttribute("data-target");
+          animateCounter(counter.id, parseInt(target)); // Convertir a número con parseInt
+          observer.unobserve(counter); // Dejar de observar una vez que la animación haya comenzado
+        }
+      });
+    }, options);
+
+    // Comenzar la observación de los contadores
+    counters.forEach((counter) => countUpObserver.observe(counter));
+  });
+</script>
