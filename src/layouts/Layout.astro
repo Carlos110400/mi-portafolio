@@ -2,6 +2,8 @@
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import "../styles/global.css";
+
+import whatsappIcon from "../assets/icon-whatsapp.svg";
 ---
 
 <!doctype html>
@@ -42,7 +44,7 @@ import "../styles/global.css";
       target="_blank"
       class="fixed bottom-4 right-4 z-50 rounded-full shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-110"
       ><img
-        src="/src/assets/icon-whatsapp.svg"
+        src={whatsappIcon.src}
         alt="Enviar WhatsApp"
         class="w-16 h-16 md:w-20 md:h-20"
       /></a
